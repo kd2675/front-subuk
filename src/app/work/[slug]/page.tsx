@@ -24,7 +24,7 @@ export function generateMetadata({ params: { slug } }: WorkParams) {
   let post = getPosts(["src", "app", "work", "projects"]).find((post) => post.slug === slug);
 
   if (!post) {
-    return;
+    return {};
   }
 
   let {

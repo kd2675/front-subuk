@@ -8,8 +8,9 @@ const person = {
   },
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/seoul", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  factory: "수농", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Korean", "English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
